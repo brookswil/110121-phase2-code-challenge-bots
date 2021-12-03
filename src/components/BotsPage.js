@@ -25,7 +25,7 @@ function BotsPage() {
   }
 
   function dischargeBot(bot) {
-    console.log('releasing', bot);
+    console.log('discharging', bot);
     setBots(bots.filter((b) => b.id !== bot.id));
   }
 
